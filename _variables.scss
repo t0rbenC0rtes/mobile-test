@@ -1,0 +1,67 @@
+$red: #f94f4f;
+$BGblack: #191921;
+$white: #ffffff;
+$black: #000000;
+$mainFont: "Commissioner";
+
+// FONTS //
+
+@mixin h1_desktop {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 88px;
+}
+
+@mixin h1_mobile {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+@mixin h2_desktop {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+}
+
+@mixin h2_mobile {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+@mixin h3_desktop {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+@mixin h3_mobile {
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+@mixin p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+@mixin p_mobile {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+// BUTTONS //
+
+@mixin button_1 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22.01px;
+  padding: 25px 40px;
+  background-color: $red;
+  text-decoration: none;
+  color: $white;
+}

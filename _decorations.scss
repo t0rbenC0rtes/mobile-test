@@ -1,0 +1,50 @@
+.deco_1 {
+  position: relative;
+  &::after {
+    content: "01";
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    font-size: 80px;
+    font-weight: 800;
+    opacity: 25%;
+  }
+}
+.deco_2 {
+  position: relative;
+  &::after {
+    content: "02";
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    font-size: 80px;
+    font-weight: 800;
+    opacity: 25%;
+  }
+}
+.deco_3 {
+  position: relative;
+  &::after {
+    content: "03";
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    font-size: 80px;
+    font-weight: 800;
+    opacity: 25%;
+  }
+}
+
+.wave {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("images/wave.png");
+    background-size: contain;
+    top: -65px;
+    left: 30px;
+    width: 61px;
+    height: 28px;
+  }
+}
